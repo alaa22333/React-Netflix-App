@@ -47,7 +47,7 @@ const Details = ({
       {/* poster */}
       <div
         data-aos="flip-left"
-        data-aos-delay="1000"
+        
         className={`  shadow-lg   shadow-black/55 `}
       >
         <picture>
@@ -77,8 +77,7 @@ const Details = ({
       <div className="flex flex-col gap-3 flex-1  items-start  ">
         <h1
           data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-delay="1000"
+         
           className="capitalize  text-2xl text-white "
         >
           {title} ({new Date(release_date).getFullYear()})
@@ -93,8 +92,8 @@ const Details = ({
                 <button
                   key={i}
                   data-aos="fade-left"
-                  data-aos-duration="1000"
-                  data-aos-delay="1200"
+                 
+                  data-aos-delay="100"
                   className={`btn m-1 `}
                 >
                   {genre.name}
@@ -105,8 +104,8 @@ const Details = ({
         )}
         <div
           data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-delay="1400"
+       
+          data-aos-delay="300"
           className="flex gap-4 text-white
      items-center  flex-row"
         >
@@ -144,21 +143,21 @@ const Details = ({
         </div>
         <h2
           data-aos="fade-down"
-          data-aos-delay="1500"
+          data-aos-delay="400"
           className="text-lg  text-white pt-5"
         >
           OverView
         </h2>
         <p
-          data-aos="fade-down"
-          data-aos-delay="1500"
+          data-aos="fade-left"
+          data-aos-delay="500"
           className="text-sm text-white  sm:line-clamp-none line-clamp-1 hover:line-clamp-none"
         >
           {overview}
         </p>
         <div
           data-aos="fade-left"
-          data-aos-delay="1500"
+          data-aos-delay="400"
           className="flex divide-y-2 w-4/5  gap-6 px-0   flex-col divide-slate-500/50"
         >
           <div className="flex  flex-wrap justify-between items-center gap-y-1  pt-5  ">
@@ -199,10 +198,7 @@ const Details = ({
       />
       {play && (
         <div
-          // onClick={() => {
-          //   setClose(true);
-          //   setPlay(false);
-          // }}
+       
           className="fixed h-full w-full bg-black/95  z-10"
         ></div>
       )}

@@ -23,7 +23,7 @@ const Videos = ({ results, loading }) => {
             ></iframe>
           </div>
 
-          <p className="text-center -mb-40  md:text-xl text-sm">
+          <p className="text-center   md:text-xl text-sm">
             {results[0]?.name}
           </p>
         </div>
