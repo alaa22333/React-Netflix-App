@@ -18,6 +18,9 @@ font-family:  Open Sans,  sans-serif}
 ::-webkit-scrollbar-track {
   background-color: black;
 }
+.imgClass{
+  width:100%
+}
 
   .backGround {
     min-height: 100vh;

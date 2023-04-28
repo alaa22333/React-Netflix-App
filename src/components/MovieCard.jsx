@@ -42,7 +42,7 @@ function MovieCard({
           loading="lazy"
           src={updatedImg}
           alt="movie card"
-          className="w-50 h-60 max-w-full"
+          className="w-full h-60 max-w-full"
         ></img>
       </picture>
       <div className=" flex text-slate-400 flex-col justify-center items-start space-y-2  ">
