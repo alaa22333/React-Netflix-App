@@ -10,7 +10,7 @@ const MoviesSample = ({ movies}) => {
   
 
   return (
-    <section className="movies-section pb-32">
+    <section className="movies-section md:px-10 pb-32">
 
 
       {movies?.length > 0 &&

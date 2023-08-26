@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { NavBar, Movies, Header } from "../components";
+import React from "react";
+import { NavBar, Movies } from "../components";
 const Home = () => {
   return (
     <div className="backGround ">

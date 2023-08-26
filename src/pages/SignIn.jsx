@@ -5,7 +5,7 @@ import {
   signInWithPopup,
 } from "firebase/auth";
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -44,7 +44,7 @@ const SignIn = () => {
 
   const handleSignIn = async (e, email, password) => {
     e.preventDefault();
-    setLoading(true);
+   
     try {
       const userCredential = await signInWithEmailAndPassword(
         auth,

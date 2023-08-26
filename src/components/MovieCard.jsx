@@ -23,7 +23,7 @@ function MovieCard({
   return (
     <div
       data-aos="fade-up"
-      className={`flex flex-col  w-auto w-60   xl:w-56 h-70 shadow-lg shadow-main/50 p-7`}
+      className={`flex flex-col  w-auto    xl:w-56 h-70 shadow-lg shadow-main/50 p-7`}
     >
       <picture>
         <source
