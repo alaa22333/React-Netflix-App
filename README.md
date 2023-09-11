@@ -1,5 +1,5 @@
 #  Netflix Clone :tv: :fire:
-![Icon Name] ![netflix (4)](https://github.com/alaa22333/React-Netflix-App/assets/87030668/4ec44fe1-53f1-4315-a4a5-552f0a1117fc)
+ ![netflix (4)](https://github.com/alaa22333/React-Netflix-App/assets/87030668/4ec44fe1-53f1-4315-a4a5-552f0a1117fc)
 
 
 This project is a Netflix clone website built with React, Redux Toolkit, Firebase, and Rest API. It features animated transitions, movie details, trailers, and a search function.
